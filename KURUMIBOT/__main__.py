@@ -219,7 +219,24 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_photo(
-                KURUMI_IMG, caption=f"Starla The Shining Star 🌟\nI'm here For You My Darling 🤭")
+            KURUMI_IMG, caption= "<code>{} is Here For You My Darling 💖\nI am Awake Since</code>: <code>{}</code>".format(
+                BOT_NAME, uptime
+            ),
+            parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                  [
+                  InlineKeyboardButton(text="Support", url=f"https://telegram.dog/{SUPPORT_CHAT}")
+                  ],
+                  [
+                  InlineKeyboardButton(text="My Darling", url=f"https://t.me/Horimaya")
+                  ],
+                  [
+                  InlineKeyboardButton(text="Help", url="https://t.me/Starla_the_Bot?start=help")
+                  ]
+                ]
+            ),
+        )
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
