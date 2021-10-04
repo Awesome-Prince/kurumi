@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                   
                     
     else:
-        update.effective_message.reply_video(
+        update.effective_message.reply_image(
                 KURUMI_IMG, caption=f"Starla The Shining Star 🌟\nI'm here For You My Darling 🤭")
 
 # for test purposes
