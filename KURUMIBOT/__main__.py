@@ -69,7 +69,7 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
+TOKISAKI_IMG = "https://telegra.ph/file/2c1cb2f0fc9a3a99f4f99.jpg"
 KURUMI_IMG = "https://telegra.ph/file/2c1cb2f0fc9a3a99f4f99.jpg1"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
