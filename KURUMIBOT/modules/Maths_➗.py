@@ -1,20 +1,20 @@
-from julia import CMD_HELP
+from KURUMIBOT import CMD_HELP
 import os
-from julia import tbot
+from KURUMIBOT import tbot
 import math
 import requests
 import json
 
 from telethon import types
 from telethon.tl import functions
-from julia.events import register
+from KURUMIBOT.events import register
 
 from pymongo import MongoClient
-from julia import MONGO_DB_URI
+from KURUMIBOT import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["yukkiakka"]
 approved_users = db.approve
 
 
