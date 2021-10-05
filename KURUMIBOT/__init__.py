@@ -187,7 +187,7 @@ else:
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 pgram = Client("Starlapyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 telethn = TelegramClient("SungJinwoo", API_ID, API_HASH)
-dispatcher = updater.
+dispatcher = updater
 
 async def get_entity(client, entity):
     entity_client = client
