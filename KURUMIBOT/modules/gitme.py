@@ -1,8 +1,8 @@
 
 import aiohttp
 from pyrogram import filters
-from Cutiepii_Robot import pgram
-from Cutiepii_Robot.functions.errors import capture_err
+from KURUMIBOT import pgram
+from KURUMIBOT.functions.errors import capture_err
 
 @pgram.on_message(filters.command('gitinfo'))
 @capture_err
